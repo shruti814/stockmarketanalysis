@@ -30,4 +30,3 @@ if st.sidebar.button("Load & Forecast"):
         except Exception as e:
             st.error(f"Prophet error: {e}")
 
-    # (Optional) ARIMA and LSTM could be run similarly; left out to keep UI snappy.
